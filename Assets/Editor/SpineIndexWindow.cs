@@ -57,7 +57,7 @@ public class SpineSkeletonIndexWindow : EditorWindow
     private const int PreviewTexH = 320;
     private float _padding = 0.2f;
 
-    [MenuItem("Tools/Spine骨架索引查找器(实时RT预览)")]
+    [MenuItem("Tools/Spine骨架索引查找器(实时RT预览)",false,101)]
     public static void OpenWindow()
     {
         var win = GetWindow<SpineSkeletonIndexWindow>("Spine索引查找-RT预览");
